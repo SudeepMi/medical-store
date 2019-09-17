@@ -1,0 +1,502 @@
+@media only screen and (max-width:1920px) and (min-width: 1920px){
+	.isotope-element-container {
+	    max-height: 62vh;
+	}
+	.tab-content.order-view .tab-pane-content {
+	    height: 55vh;
+	    max-height: 55vh;
+	}
+}
+@media only screen and (max-width: 1440px) and (min-width: 1367px){
+	/*order page start*/
+	.isotope-element-container {
+	    max-height: 65vh;
+	}
+	.tab-content.order-view .tab-pane-content {
+	    height: 59vh;
+	    max-height: 59vh;
+	}
+	/*order page end*/
+	
+	/*bill split page start*/
+	.bill-split-menu-list {
+	    height: 37vh;
+	    max-height: 37vh;
+	}
+	.bill-split-main {
+	    width: 31%;
+	}
+	/*bill split page end*/
+}
+@media screen and (max-width: 1299px){
+	.hcustom-title .btn{
+    	padding: .5rem .5rem;
+	}
+	.hcustom-title .btn [class*=" la-"], .hcustom-title .btn [class^=la-] {
+	    font-size: 1.1rem;
+	}
+	.bill-split-display-list .form-control, .bill-split-display-list .btn {
+	    padding: .5rem .5rem;
+	}
+}
+@media screen and (max-width: 1199px){
+	/*order page start*/
+	.isotope-element-container {
+	    max-height: 87vh;
+	}
+	.tab-content.order-view .tab-pane-content {
+	    height: 58vh;
+	    max-height: 58vh;
+	}
+	/*order page end*/
+
+	/*bill split page start*/
+	.bill-split-content {
+	    height: 68vh;
+	    max-height: 68vh;
+	}
+	.hcustom-title h3{
+		font-size: 1rem!important;
+	}
+	.customer-content .form-group-last .kt-option .kt-option__label .kt-option__head .kt-option__title {
+	    font-size: 1rem!important;
+	}
+	/*bill split page end*/
+}
+@media screen and (max-width: 1024px){
+	.truffle-logo{
+		width: 110px;
+	}
+	.truffle-logo img{
+		width: 100%;
+	}
+	/*bill split page start*/
+	.bill-split-menu-list {
+	    height: 38vh;
+	    max-height: 38vh;
+	}
+	.bill-split-display-list .form-control {
+	    padding: .65rem .6rem;
+	}
+	.bill-split-display-list .btn {
+	    padding: .65rem .8rem;
+	}
+	.form-group .form-group-last  label {
+	    font-size: .8rem;
+	}
+	.form-group-last .kt-option {
+	    padding: 1em;
+	}
+	.form-group-last .kt-option .kt-option__label .kt-option__head .kt-option__title {
+	    font-size: 1rem;
+	}
+	.bill-split-main .btn [class*=" la-"], .btn [class^=la-] {
+	    font-size: 1.2rem;
+	}
+	.bill-split-main .btn {
+	    padding: .5rem .5rem;
+	    font-size: 1rem;
+	}
+	.kt-portlet.kt-portlet--sticky .kt-portlet__head.kt-portlet__head--lg {
+	    min-height: 60px;
+	}
+	.bill-split-content {
+	    height: 65vh;
+	    max-height: 65vh;
+	}
+	.bill-split-main {
+	    min-height: 71.5vh;
+	}
+	.kt-radio>span:after {
+	    top: 48%;
+	    left: 47%;
+	}
+	/*bill split page end*/
+
+	/*order page start*/
+	.isotope-element-container {
+	    max-height: 69vh;
+	}
+	.tab-content.order-view .tab-pane-content {
+	    height: 56vh;
+	    max-height: 56vh;
+	}
+	.custom-order-height {
+	    min-height: 83.5vh;
+	}
+	.width-250 {
+	    width: 210px !important;
+	}
+	.regular-order-title{
+		font-size: 18px;
+	}
+	.total-order-sum {
+	    font-size: 1.3rem;
+	}
+	/*order page end*/
+}
+@media screen and (max-width: 1023px){
+	.show-in-mobile{
+		display: block;
+	}
+	.hide-in-mobile{
+		display: none;
+	}
+	.isotope-element-container {
+	    max-height: 59vh;
+	}
+	.bill-split-main {
+	    width: 39.5%;
+	}
+	/*menu page start*/
+	.hposition{
+		position: unset!important;
+	}
+	/*menu page start*/
+}
+@media screen and (max-width: 991px){
+	/*bill split page start*/
+	.bill-split-main {
+	    width: 39.5%;
+	}
+	.bill-split-menu-list {
+	    height: 29vh;
+	    max-height: 29vh;
+	}
+	.filters-btn-group .btn {
+	    padding: .5rem .5rem;
+	}
+	/*bill split page end*/
+
+	/*order page start*/
+	.isotope-element-container {
+	    max-height: 67vh;
+	}
+	.regular-order-title {
+	    font-size: 16px;
+	}
+	.width-250 {
+	    width: 160px !important;
+	}
+	.search-block i{
+	    font-size: 1rem!important;
+	}
+	/*order page end*/
+
+}
+@media screen and (max-width: 801px){
+	.width-250 {
+	    width: 140px !important;
+	}
+}
+@media screen and (max-width: 768px){
+	.bill-split-content {
+	    height: 54vh;
+	    max-height: 54vh;
+	}
+	.bill-split-main {
+	    min-height: 68.5vh;
+	    height: 68.5vh;
+	}
+	/*order page start*/
+	.mobile-view-print-icon{
+		display: block;
+	}
+	.width-250 {
+	    width: 180px !important;
+	}
+	.filters-btn-group .btn {
+	    padding: .4rem 0.4rem;
+	    font-size: .9rem;
+	}
+	.isotope-element-container {
+	    max-height: 68vh;
+	}
+	.tab-content.order-view .tab-pane-content {
+	    height: 55.5vh;
+	    max-height: 55.5vh;
+	}
+	.total-order-sum {
+	    font-size: 1.2rem;
+	}
+	/*order page end*/
+	.hcustom-btn .btn [class*=" la-"]{
+	    font-size: 1.3rem;
+	}
+}
+@media screen and (max-width: 767px){
+	/*bill split page start*/
+	.bill-split-main {
+		z-index: 2;
+		width: 99.5%;
+		position: unset;
+		margin-bottom: 2rem!important;	
+	}
+	.bill-split-main.kt-portlet.kt-portlet--sticky .kt-portlet__head {
+	    position: unset;
+	}
+	.bill-split-main {
+	    min-height: 77.5vh;
+	    height: 77.5vh;
+	}
+	.bill-split-content {
+	    height: 62vh;
+	    max-height: 62vh;
+	}
+	.bill-split-menu-list {
+	    height: 36vh;
+	    max-height: 36vh;
+	}
+	/*bill split page end*/
+
+	/*order page start*/
+	.hcustom-menu .kt-hidden-mobile {
+	    display: block!important; 
+	}
+	.isotope-element-container {
+	    max-height: 63vh;
+	}
+	.filters-btn-group .btn {
+	    padding: .65rem 1rem;
+	    font-size: 1rem;
+	}
+	.tab-content.order-view .tab-pane-content {
+	    height: 45.5vh;
+	    max-height: 45.5vh;
+	}
+	.nav-pills .nav-item .nav-link, .nav-tabs .nav-item .nav-link {
+	    font-size: 1.1rem;
+	}
+	.custom-order-height {
+		min-height: 72.5vh;
+	    margin-bottom: 1rem!important;
+	}
+	/*order page end*/
+}
+@media screen and (max-width: 575px){
+	/*bill split page start*/
+	.bill-split-menu-list {
+	    height: 39vh;
+	    max-height: 39vh;
+	}
+	/*bill split page end*/
+
+	/*order page start*/
+	.filters-btn-group .btn {
+	    padding: .5rem .5rem;
+	    font-size: 1rem;
+	}
+	.isotope-element-container {
+	    max-height: 46vh;
+	}
+	/*order page end*/
+}
+@media screen and (max-width: 481px){
+/*order page start*/
+	.isotope-element-container {
+	    max-height: 46vh;
+	}
+	/*order page end*/
+}
+
+@media screen and (max-width: 480px){
+	/*bill split page start*/
+	.bill-split-content {
+	    height: 55vh;
+	    max-height: 55vh;
+	}
+	.bill-split-main {
+	    min-height: 70.5vh;
+	    height: 70.5vh;
+	}
+	.bill-split-menu-list {
+	    height: 29vh;
+	    max-height: 29vh;
+	}
+	.kt-sticky-toolbar .kt-sticky-toolbar__item>a {
+	    width: 25px;
+	    height: 25px;
+	}
+	.kt-sticky-toolbar {
+	    width: 38px;
+	    padding: 4px 0;
+	}
+	.kt-sticky-toolbar .kt-sticky-toolbar__item {
+	    padding: 3px;
+	}
+	.kt-sticky-toolbar .kt-sticky-toolbar__item>a>i {
+	    font-size: 1.2rem;
+	}
+	/*bill split page end*/
+
+	.kt-footer .kt-footer__wrapper {
+	    padding: 1rem 0;
+	}
+}
+@media screen and (max-width: 425px){
+	.tab-content.order-view .tab-pane-content {
+	    height: 46vh;
+	    max-height: 46vh;
+	}
+	.isotope-element-container {
+	    max-height: 62.5vh;
+	}
+}
+@media screen and (max-width: 400px){
+	/*bill split page start*/
+	.bill-split-content {
+	    height: 50vh;
+	    max-height: 50vh;
+	}
+	.bill-split-main {
+	    min-height: 64.5vh;
+	    height: 64.5vh;
+	}
+	.bill-split-item .kt-badge.kt-badge--lg {
+	    height: 30px;
+	    width: 30px;
+	}
+	.kt-portlet .kt-portlet__head .kt-portlet__head-label .kt-portlet__head-title {
+	    font-size: 1rem;
+	}
+	.kt-widget4 .kt-widget4__item .kt-widget4__info .kt-widget4__text {
+	    font-size: .9rem;
+	}
+	.kt-widget4 .kt-widget4__item .kt-widget4__info {
+	    padding-right: .8rem;
+	}
+	.bill-split-main .btn {
+	    font-size: .9rem;
+	}
+	.bill-split-menu-list, .bill-split-payments, .customer-content{
+		font-size: 11px;
+	}
+	.bill-split-display-list .btn, .bill-split-display-list .form-control {
+	    font-size: .9rem;
+	    padding:.5rem .5rem;
+	}
+	.bill-split-menu-list {
+	    height: 28vh;
+	    max-height: 28vh;
+	}
+	.bill-split-payments .input-group-text, .bill-split-payments .form-control {
+	    padding: .5rem .5rem;
+	    font-size: .9rem;
+	}
+	.form-group-last .kt-option .kt-option__label .kt-option__head .kt-option__title {
+	    font-size: .9rem;
+	}
+	.form-group-last .kt-radio {
+	    margin-top: -5px;
+	}
+	.kt-radio>span {
+	    height: 14px;
+	    width: 14px;
+	}
+	.kt-radio>span:after {
+	    margin-left: -3px;
+	    margin-top: -2px;
+	}
+	/*bill split page end*/
+
+	/*order page start*/
+	.isotope-element-container {
+	    max-height: 46vh;
+	}
+	.customer-content .nav-pills .nav-item .nav-link, .nav-tabs .nav-item .nav-link {
+	    padding: .7rem 1rem;
+	    font-size: 1rem;
+	}
+	.hcustom-menu .kt-notification-v2__itek-wrapper div{
+	    font-size: 1rem!important;
+	}
+	.hcustom-menu.kt-notification-v2 .kt-notification-v2__item .kt-notification-v2__itek-wrapper {
+	    padding-left: 1rem!important;
+	}
+	/*order page end*/
+
+	/*menu category page start*/
+	.hcustom-btn .btn [class*=" la-"], .btn [class^=la-] {
+    	font-size: 1rem;
+	}
+	.hcustom-btn .btn i {
+	    padding-right: 0;
+	    vertical-align: middle;
+	    line-height: 0;
+	}
+	.hcustom-btn .btn {
+	    padding: .5rem .8rem;
+	}
+	/*menu category page end*/
+
+	.kt-option {
+	    padding: 1em;
+	}
+	.kt-option .kt-option__control {
+	    width: 1.8rem;
+	}
+	.kt-option .kt-option__label .kt-option__head .kt-option__title {
+	    font-size: 1rem;
+	}
+}
+@media screen and (max-width: 320px){
+	/*bill split page start*/
+	.bill-split-menu-list, .bill-split-payments{
+		font-size: 10px;
+	}
+	.bill-split-display-list .btn, .bill-split-display-list .form-control {
+	    font-size: .8rem;
+	}
+	.bill-split-menu-list {
+	    height: 23vh;
+	    max-height: 23vh;
+	}
+	.form-group-last .kt-option .kt-option__label .kt-option__head .kt-option__title {
+	    font-size: .8rem;
+	}
+	.kt-radio>span {
+	    height: 14px;
+	    width: 14px;
+	}
+	.kt-radio>span:after {
+	    margin-top: -3px;
+	}
+	.form-group-last .kt-radio {
+	    margin-top: -2px;
+	}
+	/*bill split page end*/
+
+	/*order page start*/
+	.isotope-element-container {
+	    max-height: 46.5vh;
+	}
+	.tab-content.order-view .tab-pane-content {
+	    height: 51vh;
+	    max-height: 51vh;
+	}
+	.customer-content .nav-pills .nav-item .nav-link, .nav-tabs .nav-item .nav-link {
+	    padding: .7rem .7rem;
+	    font-size: .9rem;
+	}
+	.hcustom-menu .kt-notification-v2__itek-wrapper div{
+	    font-size: .9rem!important;
+	}
+	.hcustom-menu.kt-notification-v2 .kt-notification-v2__item .kt-notification-v2__itek-wrapper {
+	    padding-left: .8rem!important;
+	}
+	.filters-btn-group .btn {
+	    font-size: .9rem;
+	}
+	/*order page end*/
+
+	/*form page*/
+	.small-txt{
+		padding-left: 0!important;
+	}
+	.kt-option {
+	    padding: .6em;
+	}
+	.kt-option .kt-option__control {
+	    width: 1.5rem;
+	}
+}

@@ -1,0 +1,26 @@
+.hkt-header--fixed {
+    height: 10vh!important;
+    background-color: #6f4e37!important;
+}
+.hkt-wrapper {
+    padding-top: 10vh!important;
+}
+.animated{
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s;
+}
+
+/*................header white................*/
+.kt-header__topbar .kt-header__topbar-item .kt-header__topbar-wrapper .kt-header__topbar-icon i,
+.kt-header__topbar .kt-header__topbar-item.kt-header__topbar-item--user .kt-header__topbar-username,
+.kt-header__topbar .kt-header__topbar-item.kt-header__topbar-item--user .kt-header__topbar-welcome{
+    color: #ffffff;
+}
+.kt-aside-toggler span,
+.kt-aside-toggler span::after,
+.kt-aside-toggler span::before {
+    background: #ffffff;
+}
+.kt-header-menu-wrapper .kt-header-menu .kt-menu__nav>.kt-menu__item.kt-menu__item--active>.kt-menu__link, .kt-header-menu-wrapper .kt-header-menu .kt-menu__nav>.kt-menu__item.kt-menu__item--here>.kt-menu__link {
+     background-color: transparent; 
+}

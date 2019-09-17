@@ -1,0 +1,123 @@
+
+html{
+    background-color: #eee !important;
+}
+    body{
+    font-size:12px !important;
+    background-color: #eee !important;
+}
+.bill-split-payments .input-group{
+	margin-bottom: .5rem;
+}
+.bill-split-content a.bill-split-item:nth-of-type(1){
+	margin-top: 1rem;
+}
+.form-group-last .kt-radio {
+    margin-top: -2px;
+}
+.form-group-last .kt-radio>span:after {
+    top: 46%;
+    left: 44%;
+}
+.form-group-last .kt-radio>input:checked~span:after {
+    top: 48%;
+    left: 47%;
+}
+.mobile-view-print-icon{
+	display: none;
+}
+.custom-order-height{
+	min-height: 81.5vh;
+}
+.isotope-element-container {
+	max-height: 57vh;
+}
+.tab-content.order-view .tab-pane-content {
+    height: 53vh;
+    max-height: 53vh;
+}
+.total-order-sum {
+    padding-top: 1rem;
+}
+.bill-split-content {
+    height: 62vh;
+    max-height: 62vh;
+}
+.bill-split-main {
+    min-height: 71.5vh;
+}
+.show-in-mobile{
+	display: none;
+}
+.pr-0 input{
+	padding-right: 0!important;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+body div::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+body div::-webkit-scrollbar {
+    width: 5px;
+    height: 5px !important;
+
+    background-color: #F5F5F5;
+}
+
+body div::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,.3);
+    background-color: #646c9a;
+}
+.width-80{
+    width: 80%;
+}
+.hfont{
+    font-size: 12px!important;
+}
+.kt-userpic.kt-userpic--circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.kt-userpic img {
+    width: 100%;
+    height: 100%!important;
+    object-fit: cover;
+    object-position: center;
+}
+.kt-notification-v2__item-title{
+    max-height: 43px;
+    height: 43px;
+    overflow: hidden;
+}
+/* .kt-portlet {
+    box-shadow: none;
+    border: 1px solid black;
+    background-color: #ebeaeb;
+}
+.kt-header--fixed .kt-header {
+    box-shadow: none;
+    background: #eeeeee;
+} */
+.hz-scroll{
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.hz-scroll button{
+    display: inline-block !important;
+    text-align: center;
+    padding: 10px;
+}
