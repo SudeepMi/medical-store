@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8"/>
         <meta name="csrf-token" content="{{ csrf_token() }}" />
-        <title>Truffle 2 | @yield('title')</title>
+        <title>Medical | @yield('title')</title>
         <link rel="shortcut icon" href="{{ asset('assets/media/fav.ico') }}">
         <meta name="description" content="Latest updates and statistic charts">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -162,11 +162,11 @@
                 </div>
             </div>
             <div id="kt_header_mobile" class="kt-header-mobile  kt-header-mobile--fixed " >
-                <div class="kt-header-mobile__logo">
+                {{--  <div class="kt-header-mobile__logo">
                     <a href="{{route('home')}}" class="truffle-logo">
-                        <img alt="Logo" src="{{ asset('assets/media/logo.png') }}"/>
+                        {{--  <img alt="Logo" src="{{ asset('assets/media/logo.png') }}"/> 
                     </a>
-                </div>
+                </div>  --}}
                 <div class="kt-header-mobile__toolbar">
                     <button class="kt-header-mobile__toolbar-toggler kt-header-mobile__toolbar-toggler--left" id="kt_aside_mobile_toggler"><span></span></button>
                     <button class="kt-header-mobile__toolbar-toggler" id="kt_header_mobile_toggler"><span></span></button>
@@ -192,7 +192,7 @@
                             <div class="kt-container ">
                                 <div class="kt-footer__wrapper">
                                     <div class="kt-footer__copyright">
-                                        2019&nbsp;&copy;&nbsp;<a href="https://klientsoft.com" target="_blank" class="kt-link">Klientsoft</a>
+                                        2019&nbsp;&copy;&nbsp;<a href="#" target="_blank" class="kt-link">Sudeep</a>
                                     </div>
                                     <div class="kt-footer__menu">
                                         <a href="https://klientsoft.com/about" target="_blank" class="kt-link">About</a>

@@ -163,7 +163,7 @@
             <div id="kt_header_mobile" class="kt-header-mobile  kt-header-mobile--fixed " >
                 <div class="kt-header-mobile__logo">
                     <a href="{{route('home')}}" class="truffle-logo">
-                        <img alt="Logo" src="{{ asset('assets/media/logo.png') }}"/>
+                        {{--  <img alt="Logo" src="{{ asset('assets/media/logo.png') }}"/>  --}}
                     </a>
                 </div>
                 <div class="kt-header-mobile__toolbar">

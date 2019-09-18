@@ -27,18 +27,6 @@
                             </div>
                         </div>
                     </a>
-
-                    <!-- <a href="{{ route('bill.split') }} " class="kt-notification__item">
-                            <div class="kt-notification__item-icon">
-                                <i class="flaticon2-box-1 kt-font-brand"></i>
-                            </div>
-                            <div class="kt-notification__item-details">
-                                <div class="kt-notification__item-title">
-                                Bill Split
-                                </div>
-                            </div>
-                    </a> -->
-
                     <a href="{{ route('vendor.index') }} " class="kt-notification__item">
 
                             <div class="kt-notification__item-icon">
@@ -61,99 +49,16 @@
                             </div>
                         </div>
                     </a>
-                    <a href="{{ route('membership.index') }} " class="kt-notification__item">
-
-                        <div class="kt-notification__item-icon">
-                            <i class="fas fa-user-friends"></i>
-                        </div>
-                        <div class="kt-notification__item-details">
-                            <div class="kt-notification__item-title">
-                                Membership
-                            </div>
-                        </div>
-                    </a>
-
-                    <!-- <a href="{{ route('elements') }} " class="kt-notification__item">
-
-                            <div class="kt-notification__item-icon">
-                                <i class="flaticon2-box-1 kt-font-brand"></i>
-                            </div>
-                            <div class="kt-notification__item-details">
-                                <div class="kt-notification__item-title">
-                                Elements
-                                </div>
-                            </div>
-                    </a> -->
-
-                    <!-- <a href="{{route('form')}}" class="kt-notification__item">
-                            <div class="kt-notification__item-icon">
-                                <i class="flaticon2-line-chart kt-font-success"></i>
-                            </div>
-                            <div class="kt-notification__item-details">
-                                <div class="kt-notification__item-title">
-                                    Form
-                                </div>
-                            </div>
-                    </a>
-
-                    <a href="{{ route('kot') }} " class="kt-notification__item">
-
-                            <div class="kt-notification__item-icon">
-                                <i class="flaticon2-box-1 kt-font-brand"></i>
-                            </div>
-                            <div class="kt-notification__item-details">
-                                <div class="kt-notification__item-title">
-                                    Kot
-                                </div>
-                            </div>
-                    </a> -->
-
-                    <a href="{{route('menu.index')}}" class="kt-notification__item">
+                    <a href="{{route('drugs.category.index')}}" class="kt-notification__item">
                         <div class="kt-notification__item-icon">
                             <i class="flaticon2-line-chart kt-font-success"></i>
                         </div>
                         <div class="kt-notification__item-details">
                             <div class="kt-notification__item-title">
-                                Menu
+                                Drugs Category
                             </div>
                         </div>
                     </a>
-
-                    <a href="{{route('menu.category.index')}}" class="kt-notification__item">
-                        <div class="kt-notification__item-icon">
-                            <i class="flaticon2-line-chart kt-font-success"></i>
-                        </div>
-                        <div class="kt-notification__item-details">
-                            <div class="kt-notification__item-title">
-                                Menu Category
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="{{ route('order.index') }} " class="kt-notification__item">
-
-                        <div class="kt-notification__item-icon">
-                            <i class="flaticon2-box-1 kt-font-brand"></i>
-                        </div>
-                        <div class="kt-notification__item-details">
-                            <div class="kt-notification__item-title">
-                                Order
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="{{ route('retails.index') }} " class="kt-notification__item">
-
-                            <div class="kt-notification__item-icon">
-                                <i class="fas fa-user"></i>
-                            </div>
-                            <div class="kt-notification__item-details">
-                                <div class="kt-notification__item-title">
-                                    Retails
-                                </div>
-                            </div>
-                    </a>
-
                     <a href="{{ route('settings.index') }} " class="kt-notification__item">
 
                             <div class="kt-notification__item-icon">
@@ -165,55 +70,17 @@
                                 </div>
                             </div>
                     </a>
-
-                    <a href="{{ route('stock.item.index') }} " class="kt-notification__item">
+                    <a href="{{ route('drugs.item.index') }} " class="kt-notification__item">
 
                             <div class="kt-notification__item-icon">
                                 <i class="flaticon2-box-1 kt-font-brand"></i>
                             </div>
                             <div class="kt-notification__item-details">
                                 <div class="kt-notification__item-title">
-                                    Stock Items
+                                   Drugs
                                 </div>
                             </div>
                     </a>
-
-                    <a href="{{ route('tip.index') }} " class="kt-notification__item">
-
-                        <div class="kt-notification__item-icon">
-                            <i class="fas fa-money-bill-wave"></i>
-                        </div>
-                        <div class="kt-notification__item-details">
-                            <div class="kt-notification__item-title">
-                                Tips Managment
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="{{ route('user.index') }} " class="kt-notification__item">
-
-                            <div class="kt-notification__item-icon">
-                               <i class="fas fa-user"></i>
-                            </div>
-                            <div class="kt-notification__item-details">
-                                <div class="kt-notification__item-title">
-                               Users
-                                </div>
-                            </div>
-                    </a>
-
-                    <a href="{{ route('stock.utensil.index') }} " class="kt-notification__item">
-
-                            <div class="kt-notification__item-icon">
-                                <i class="fas fa-user"></i>
-                            </div>
-                            <div class="kt-notification__item-details">
-                                <div class="kt-notification__item-title">
-                                    Utensil
-                                </div>
-                            </div>
-                    </a>
-
                 </div>
             </div>
             <div class="tab-pane kt-quick-panel__content-padding-x fade kt-scroll" id="main-settings" role="tabpanel">

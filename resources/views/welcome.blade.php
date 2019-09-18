@@ -3,9 +3,9 @@
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <head>
         <meta charset="utf-8"/>
-        <title>Truffle</title>
+        <title>Medical</title>
         <link rel="shortcut icon" href="{{ asset('assets/media/fav.ico') }}">
-        <meta name="description" content="Latest updates and statistic charts"> 
+        <meta name="description" content="Latest updates and statistic charts">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <script src="{{ asset('assets/webfont/1.6.16/webfont.js') }}"></script>
         <script>
@@ -54,14 +54,14 @@
 					</div>
 					<div class="kt-grid__item kt-grid__item--fluid  kt-grid__item--order-tablet-and-mobile-1  kt-login__wrapper">
 						<div class="kt-login__head">
-							<span class="kt-login__signup-label">Don't have an account yet?</span>&nbsp;&nbsp;
+							<span class="kt-login__signup-label">Dont have an account yet?</span>&nbsp;&nbsp;
 							<a href="#" class="kt-link kt-login__signup-link">Sign Up!</a>
 						</div>
 						<div class="kt-login__body">
 							<div class="kt-login__form">
 								<div class="kt-login__title">
 									<h3>Sign In</h3>
-								</div>			
+								</div>
 								<form class="kt-form" action="{{route('login')}}" method="POST" novalidate="novalidate">
 									@csrf
                                     <div class="form-group">
@@ -86,7 +86,7 @@
 												{{ __('Forgot Password ?') }}
 											</a>
 										@endif
-										
+
 										<button type="submit" id="kt_login_signin_submit" class="btn btn-primary btn-elevate kt-login__btn-primary">Sign In</button>
 									</div>
 								</form>

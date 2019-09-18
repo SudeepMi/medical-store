@@ -2,6 +2,7 @@
 @section('title','Dashboard')
 @section('content')
     <div class="row">
+
         <div class="col-lg-6 col-xl-6 col-sm-12 order-lg-1 order-xl-1">
             <div class="kt-portlet">
                 <div class="kt-portlet__body  kt-portlet__body--fit">
@@ -33,6 +34,7 @@
             <div class="kt-portlet"> <!--Sales-->
                 <div class="kt-portlet__body  kt-portlet__body--fit">
                     <center><h5 class="pt-3 m-0">Sales Report</h5></center>
+                  
                     <div class="row row-no-padding row-col-separator-xl">
                         <div class="col-md-12 col-lg-6 col-xl-3">
                             <div class="kt-widget24">
@@ -70,6 +72,7 @@
                                     <div class="kt-widget24__info">
                                         <h4 class="kt-widget24__title">
                                             This Month
+
                                         </h4>
                                     </div>
 
